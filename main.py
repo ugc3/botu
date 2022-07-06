@@ -26,7 +26,7 @@ def clase(call):
 	elif call.data =="ran":
 			message = call.message
 			try:
-				file = open('user.txt','r').read().splitlines()
+				file = open('user1.txt','r').read().splitlines()
 			except IndexError as error :
 				print(error)
 			c ='https://www.instagram.com/accounts/login/ajax/'
