@@ -148,7 +148,7 @@ def clase(call):
 
 					
 
-					if ('"Your account has been permanently disabled because it didn') in rq.text:
+					if ('"Your account has been permanently disabled because it didn') in rq:
 
 						gm+=1
 
