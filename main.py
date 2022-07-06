@@ -4,7 +4,7 @@ import telebot
 #from os import system as cmd
 from telebot import types
 
-token = "5165854367:AAFRNz_c0eG3P2mZ5s2iJL84lPcdFTbfx-k"
+token = "1605426958:AAGjEhz8N5jLQpux5sAJb1ZUgjN_flTaUww"
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
 
